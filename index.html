@@ -11,58 +11,101 @@ a {
 	font-weight: bold;
 }
 
+.container {
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	background-color: silver;
+	border-radius: 1em;
+}
+
+.misc {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	text-align:center;
+	border-bottom: 2px solid black;
+}
+
+.maincampaign {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	border-right: 2px solid black;
+}
+
+.postgame {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
 </style>
 </head>
 <body>
 	<h1><center><i>The Hag in White</i> Text Archive</center></h1>
 	<div data-role="main" class="ui-content">
-		<p>Script and text archive for <i><a href=https://feuniverse.us/t/the-hag-in-white-complete/31606> target="_blank">The Hag in White</a></i>, a romhack of <i>Fire Emblem: The Sacred Stones</i> by Saint Rubenio.</p>
-		<ul>
-			<li><a rel="external" href="">Chapter 00</a></li>
-			<li><a rel="external" href="">Chapter 01</a></li>
-			<li><a rel="external" href="">Chapter 02</a></li>
-			<li><a rel="external" href="">Chapter 03</a></li>
-			<li><a rel="external" href="">Chapter 04</a></li>
-			<li><a rel="external" href="">Chapter 05</a></li>
-			<li><a rel="external" href="">Chapter 06</a></li>
-			<li><a rel="external" href="">Chapter 07</a></li>
-			<li><a rel="external" href="">Roadside Stop 1</a></li>
-			<li><a rel="external" href="">Chapter 08</a></li>
-			<li><a rel="external" href="">Chapter 09</a></li>
-			<li><a rel="external" href="">Chapter 10</a></li>
-			<li><a rel="external" href="">Chapter 11</a></li>
-			<li><a rel="external" href="">Chapter 12</a></li>
-			<li><a rel="external" href="">Chapter 13</a></li>
-			<li><a rel="external" href="">Chapter 14</a></li>
-			<li><a rel="external" href="">Roadside Stop 2</a></li>
-			<li><a rel="external" href="">Chapter 15</a></li>
-			<li><a rel="external" href="">Chapter 16</a></li>
-			<li><a rel="external" href="">Chapter 17</a></li>
-			<li><a rel="external" href="">Chapter 18</a></li>
-			<li><a rel="external" href="">Chapter 19</a></li>
-			<li><a rel="external" href="">Chapter 20</a></li>
-			<li><a rel="external" href="">Chapter 21</a></li>
-			<li><a rel="external" href="">Chapter 22</a></li>
-			<li><a rel="external" href="">Chapter 23</a></li>
-			<li><a rel="external" href="">Chapter 24</a></li>
-			<li><a rel="external" href="">Final 1</a></li>
-			<li><a rel="external" href="">Final 2</a></li>
-			<li><a rel="external" href="">Final 3</a></li>
-			<li><a rel="external" href="">Epilogue</a></li>
-			<li><a rel="external" href="">Chapter 01x</a></li>
-			<li><a rel="external" href="">Chapter 02x</a></li>
-			<li><a rel="external" href="">Chapter 03x</a></li>
-			<li><a rel="external" href="">Chapter 04x</a></li>
-			<li><a rel="external" href="">Chapter 05x</a></li>
-			<li><a rel="external" href="">Chapter 06x</a></li>
-			<li><a rel="external" href="">Chapter 07x</a></li>
-			<li><a rel="external" href="">Chapter 08x</a></li>
-			<li><a rel="external" href="">Chapter 09x</a></li>
-			<li><a rel="external" href="">Chapter 10x</a></li>
-			<li><a rel="external" href="">Chapter 16x</a></li>
-			<li><a rel="external" href="">Base Camp</a></li>
-			<li><a rel="external" href="misc.html">Miscellaneous Text</a></li>
-		</ul>
+		<p>Script and text archive for <i><a href=https://feuniverse.us/t/the-hag-in-white-complete/31606 target="_blank">The Hag in White</a></i>, a romhack of <i>Fire Emblem: The Sacred Stones</i> by Saint Rubenio.</p>
+		<div class="container">
+			<div class="misc">
+			<p><a rel="external" href="">Base Camp</a><br>
+			<a rel="external" href="misc.html">Miscellaneous Text</a></p>
+			</div>
+			<div class="maincampaign">
+			<h4 style="text-align:center">Main Story</h4>
+			<ul>
+				<li><a rel="external" href="">Chapter 00</a></li>
+				<li><a rel="external" href="">Chapter 01</a></li>
+				<li><a rel="external" href="">Chapter 02</a></li>
+				<li><a rel="external" href="">Chapter 03</a></li>
+				<li><a rel="external" href="">Chapter 04</a></li>
+				<li><a rel="external" href="">Chapter 05</a></li>
+				<li><a rel="external" href="">Chapter 06</a></li>
+				<li><a rel="external" href="">Chapter 07</a></li>
+				<li><a rel="external" href="">Roadside Stop 1</a></li>
+				<li><a rel="external" href="">Chapter 08</a></li>
+				<li><a rel="external" href="">Chapter 09</a></li>
+				<li><a rel="external" href="">Chapter 10</a></li>
+				<li><a rel="external" href="">Chapter 11</a></li>
+				<li><a rel="external" href="">Chapter 12</a></li>
+				<li><a rel="external" href="">Chapter 13</a></li>
+				<li><a rel="external" href="">Chapter 14</a></li>
+				<li><a rel="external" href="">Roadside Stop 2</a></li>
+				<li><a rel="external" href="">Chapter 15</a></li>
+				<li><a rel="external" href="">Chapter 16</a></li>
+				<li><a rel="external" href="">Chapter 17</a></li>
+				<li><a rel="external" href="">Chapter 18</a></li>
+				<li><a rel="external" href="">Chapter 19</a></li>
+				<li><a rel="external" href="">Chapter 20</a></li>
+				<li><a rel="external" href="">Chapter 21</a></li>
+				<li><a rel="external" href="">Chapter 22</a></li>
+				<li><a rel="external" href="">Chapter 23</a></li>
+				<li><a rel="external" href="">Chapter 24</a></li>
+				<li><a rel="external" href="">Final 1</a></li>
+				<li><a rel="external" href="">Final 2</a></li>
+				<li><a rel="external" href="">Final 3</a></li>
+				<li><a rel="external" href="">Epilogue</a></li>
+			</ul>
+			</div>
+			<div class="postgame">
+			<h4 style="text-align:center">Postgame</h4>
+			<ul>
+				<li><a rel="external" href="">Chapter 01x</a></li>
+				<li><a rel="external" href="">Chapter 02x</a></li>
+				<li><a rel="external" href="">Chapter 03x</a></li>
+				<li><a rel="external" href="">Chapter 04x</a></li>
+				<li><a rel="external" href="">Chapter 05x</a></li>
+				<li><a rel="external" href="">Chapter 06x</a></li>
+				<li><a rel="external" href="">Chapter 07x</a></li>
+				<li><a rel="external" href="">Chapter 08x</a></li>
+				<li><a rel="external" href="">Chapter 09x</a></li>
+				<li><a rel="external" href="">Chapter 10x</a></li>
+				<li><a rel="external" href="">Chapter 16x</a></li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>
