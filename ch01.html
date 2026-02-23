@@ -1,0 +1,941 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="hagarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 1: A Debt Unpaid</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+				<div class="speaker">narrator</div>
+				<div class="dialogue">The Theocracy of Tartaros
+was founded some 400 years
+ago by Dolus I, who would be
+its first hierophant.<br>
+Founded upon the tenets of
+the Church of Anima, which
+reveres the Mother Earth and
+the blessing of the elements,<br>
+it is a powerful and prideful
+nation that rewards fidelity
+and harshly punishes all that
+is deemed heretical.<br>
+The current hierophant,
+Dolus IV, inherits his sacred
+bloodline's duty to protect
+the country's way of life.<br>
+By mean of the order of the
+holy knights, the inquisition,
+he stamps out dissidence
+wheresoever he finds it...</div>
+			</div>
+			<h3 class="transition">Percote, Kyra's home</h3>
+			<div class="container">
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Heya, Redbeard.</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue"><i>[Smiles]</i> Lassie! Another job well done,
+I assume?</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Of course. We got Begoña's
+big guy, what's his name...</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Who cares. Important thing is
+he can bugger people no more.<br>
+As head of the guild, yada yada
+here's your reward.</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Edward gives Kyra 3000 gold.)</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Say, who's your friend?</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Ah, that's Apate...
+We saved her from the bandits.</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Scum o' the earth, picking
+on an old lady like that.<br>
+Though you've got a scary
+enough look in your eye...<br>
+<i>[Smirks]</i> I'm surprised it alone didn't
+scare 'em off! Hahaha...<br>
+What's yer story, ma'am?</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">......</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Er, listen...
+It's a bit of a long one...<br>
+I'd like to see Elias first.
+That okay with you?</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">It's been a good mornin' for
+him too.<br>
+Boy got up early hopin' you'd
+come back already.<br>
+I took him for a walk while
+we waited.<br>
+<i>[Smiles]</i> Made it all the way to the
+church!</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">T-That's great...</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">It left him a bit winded, so
+he's back in bed now.<br>
+Still, that's pretty good,
+don't you think?</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Thanks, Redbeard.</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Don't mention it. Want me to show
+your friend to the guest room?</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">I'd like to introduce her to Elias.
+This way, Apate...</div>
+				<div class="speaker">Apate</div>
+				<div class="dialogue">...Ah...
+I think I understand...</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(They leave.)</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">...One thing's for sure,
+something's up here.<br>
+Hmmm...</div>
+			</div>
+			<h3 class="transition">Elias' Room</h3>
+			<div class="container">
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Elias...
+Are you awake?</div>
+				<div class="speaker">Elias</div>
+				<div class="dialogue"><i>[Smiles]</i> Sis... You're back...</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue"><i>[Smiling]</i> Redbeard says you walked
+all over town today!<br>
+I'm proud of you, big guy.</div>
+				<div class="speaker">Elias</div>
+				<div class="dialogue">T-Thanks... I just couldn't rest
+easy while you were gone...</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">...So this is why you reacted the
+way you did.<br>
+To the rest, I was a bad omen.
+To you... I was a blessing.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Do you think, if you poke him
+with your miracle stick...?</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">Fresh wounds are one thing.
+Illnesses are another.<br>
+First, I would have to take a
+long, thorough look at him.<br>
+And the longer I spend in this
+room with you both,<br>
+the more questions that man
+will ask himself...</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Redbeard? Nah, he's--</div>
+				<div class="speaker">villager</div>
+				<div class="dialogue">Help! Somebody help!<br>
+The brigands!
+...T-They're everywhere!</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">What?!<br>
+Elias, find somewhere
+to hide!</div>
+				<div class="speaker">elias</div>
+				<div class="dialogue">What's... What's going on?</div>				
+				<div class="speaker"></div>
+				<div class="stagedirection">(Kyra leaves.)</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">......</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Apate leaves.)</div>
+				<div class="speaker">Elias</div>
+				<div class="dialogue">...Oh, no...</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Kyra and Apate exit the guild to discover Percote is overrun by bandits.)</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">What do these bastards
+think they're doing?<br>
+They dare to raid
+Percote...!</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Kyra!</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Redbeard, please, stay inside.
+Keep Elias safe!</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Got it. You'll have nothing
+to worry about out there.<br>
+So don't lose focus now,
+lassie!</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Edward reenters the building.)</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">They will pay for their
+recklessness.</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">...There are a lot of them.
+Let me assist.</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">Thanks... The others are probably
+already fighting out there, too.<br>
+We'll show these ruffians the price
+of attacking our home!</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Enemy Turn 1</h1>
+			<div class="container">
+				<div class="speaker">Begoña</div>
+				<div class="dialogue"><i>[Grinning]</i> Gehahahahaha!<br>
+This is what happens when you cross
+Begoña, Tartaros's mightiest boss!<br>
+Oh, if only I could see the look on their
+stupid faces!</div>
+				<div class="speaker">López</div>
+				<div class="dialogue">Frankly, I'd rather not see it.<br>
+Because seeing the look on their
+faces means seeing their faces.<br>
+And if we're that close to them,
+next we'll be seeing stars.</div>
+				<div class="speaker">Begoña</div>
+				<div class="dialogue">Don't be such a worrywart, López.
+We got this!<br>
+We tore down their walls, we waltzed
+through their gates...<br>
+<i>[Smirks]</i> I dare say we'll be callin' ourselves
+lords o' this hovel soon! Hahaha...</div>
+				<div class="speaker">López</div>
+				<div class="dialogue">...I just wanna avenge Fango.</div>
+				<div class="speaker">Begoña</div>
+				<div class="dialogue">They'll rue the day they took
+that moron from us.<br>
+NOBODY messes with Begoña's
+boys!</div>
+				<div class="speaker">López</div>
+				<div class="dialogue">Actually, on second thought, would
+you leave this one to me, boss?<br>
+Fango and I were close, you know,
+and...</div>
+				<div class="speaker">Begoña</div>
+				<div class="dialogue">'Course, 'course!
+Have a good time, López.<br>
+I'll go back to the hideout
+and wait for the good news.<br>
+Bring me that girl alive and
+I'll shower you with gold!</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Begoña leaves.)</div>
+			</div>
+			<p><i>If Fango was spared:</i></p>
+			<div class="container">
+				<div class="speaker">López</div>
+				<div class="dialogue">...Hmm... Vengeance would
+be nice, but...<br>
+Maybe I should see if that
+girl'll hear me out.<br>
+It's worth a shot. She kept
+Fango alive, so I hear...</div>
+			</div>
+			<p><i>If Fango was killed:</i></p>
+			<div class="container">
+				<div class="speaker">López</div>
+				<div class="dialogue">...Dammit, they killed Fango
+in cold blood...<br>
+I'm next for sure! I better
+make sure I win this...</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 2 (Kairos)</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Soter is alive</h1>
+				<div class="container">
+					<div class="speaker"></div>
+					<div class="stagedirection">(Kairos exits Percote's church.)</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue">Well, well, well.
+What have we here?<br>
+A bunch of rowdy rabblerousers
+plundering our podunk?</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(Soter startles.)</div>
+					<div class="speaker">Soter</div>
+					<div class="dialogue">Gah! Father Kairos...!<br>
+No, no, this will not do. I beg you
+to return inside, Your Eminence!<br>
+Our placid streets are fraught
+with danger on this day!</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue">I can see that...
+How'd this happen, Sir Soter?<br>
+You and your merc friends are
+slacking off...</div>
+					<div class="speaker">Soter</div>
+					<div class="dialogue">I... I can only apologize...</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue">Well, I got my ceremonial blade with me.
+Need an extra pair of hands?<br>
+<font color="red">These morons would prefer to attack us
+than the houses, I imagine.</font><br>
+So the more the merrier, eh?</div>
+					<div class="speaker">Soter</div>
+					<div class="dialogue">I could never! You wound me with
+the mere suggestion!<br>
+To bring a priest into bloody combat,
+it would be a most heinous sin!</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue">Perhaps, but it would be my sin. And
+you don't have to worry about me.<br>
+I'm sure the Mother Earth will find it in
+her to forgive her foolish shepherd.</div>
+					<div class="speaker">Soter</div>
+					<div class="dialogue"><i>[closes eyes]</i> ...I know better than to waste time
+arguing with you, Father Kairos.<br>
+I only beg that you ensure you do not
+go to the Mother's side on this day.</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue"><i>[Smirks]</i> So little faith in my abilities.<br>
+Allow me to show you what this
+priest is made of!</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Soter is dead</h1>
+				<div class="container">
+					<div class="speaker"></div>
+					<div class="stagedirection">(Kairos exits Percote's church.)</div>
+					<div class="speaker">Kairos</div>
+					<div class="dialogue">Well, well, well.
+What have we here?<br>
+A bunch of rowdy rabblerousers
+plundering our podunk?<br>
+Those mercs are slacking off...
+Oh, well.<br>
+<font color="red">These morons would prefer to attack
+us than the houses, I imagine.</font><br>
+I guess it's time I showed them what
+this priest is made of!</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 3 (Pheme)</h1>
+			<div class="container">
+				<div class="speaker"></div>
+				<div class="stagedirection">(Pheme enters from the west.)</div>
+				<div class="speaker">Pheme</div>
+				<div class="dialogue">Kyra!
+Kyra, are you around here?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Pheme? Find somewhere
+to hide, hurry!</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">What's going on?
+Awful lot of noise this way...<br>
+<p><i>(Pheme startles.)</i></p>
+<p>Oh my gosh! Brigands are
+assaulting Percote?!<br>
+I thought they never came
+this far! What's happening?</p></div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">I'll tell you all about it later.
+Now please, get out of here!</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">No, wait! I've got the bow
+you gave me.<br>
+I can lend you a hand to
+fight them off!</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Are you kidding me?<br>
+Look, you're making good progress,
+I'm not saying you aren't, but...<br>
+Shooting humans is harder than
+shooting rabbits.<br>
+Especially when those humans are
+actively trying to beat you up.</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">Kyra, c'mon...
+I live here too, you know.<br>
+I'm one of the few that can help,
+if only a little. I can't just sit still.<br>
+Not to mention my brother...<br>
+His leg hasn't healed yet.
+If they get to our house...</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">......<br>
+Ohh, fine.<br>
+But don't let me catch you trying
+any heroics, you hear?<br>
+Do what you can, and if it looks
+to get rough, run.</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue"><i>[Smiles]</i> I'm sure I'll be fine.<br>
+You'll be by my side,
+after all!</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Kyra & López</h1>
+				<div class="container">
+					<div class="speaker">López</div>
+					<div class="dialogue">Oi! Wait a second there!</div>
+					<div class="speaker">Kyra</div>
+					<div class="dialogue">First you attack our village, then
+you ask me to wait a second?<br>
+No. You don't get a second.
+All I'm giving you is an arrow.</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(López squirms.)</div>
+					<div class="speaker">López</div>
+					<div class="dialogue">Aww, c-c'mon!
+I hear you spared Fango!</div>
+					<div class="speaker">kyra</div>
+					<div class="dialogue">...Yes, he's been sleeping cozy
+in a dank cell.</div>
+					<div class="speaker">López</div>
+					<div class="dialogue">Yeah, well... Uh, I'd like to go keep
+him company, if at all possible.</div>
+					<div class="speaker">kyra</div>
+					<div class="dialogue">Would you? That doesn't look like the
+reason you came here, does it?</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(López backs away.)</div>
+					<div class="speaker">López</div>
+					<div class="dialogue">Ahh, don't give me that look!
+It's not my fault, y'know!<br>
+You really got on the boss's
+nerves that last time...<br>
+She wanted us to put on a
+show of force, as it were.</div>
+					<div class="speaker">kyra</div>
+					<div class="dialogue">Begoña... She'll answer for
+this in due time, too.<br>
+This time, it's all over for
+her. And for you.</div>
+					<div class="speaker">López</div>
+					<div class="dialogue">Gee, you don't say.<br>
+Look, at this point I just wanna
+keep my neck nice and uncut.<br>
+Clap me in irons and haul me over
+to one of your dinky cells.<br>
+I don't care, I just wanna try livin'
+till I'm old and wrinkly.</div>
+					<div class="speaker">kyra</div>
+					<div class="dialogue">I will grant your request.<br>
+...But first...</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(Kyra punches him.)</div>
+					<div class="speaker">López</div>
+					<div class="dialogue">G-Gaahh! Ooww...!</div>
+					<div class="speaker">kyra</div>
+					<div class="dialogue">...That's for the destruction.</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>López</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Engaging Combat</h1>
+					<div class="container">
+						<div class="speaker">López</div>
+						<div class="dialogue">And here I thought we stood a
+	chance to win.<br>
+	You know, since we're such fine
+	fighters and all...</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+						<div class="speaker">López</div>
+						<div class="dialogue">I wonder if anyone'll even
+bother to bury me...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Phobos' House</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">My boy's a bit of a scaredy
+						cat, but he's capable.<br>
+						I'm so happy you folks took
+						him under your wing.<br>
+						You're gonna whip him into
+						shape, I know it.<br>
+						...Just keep him safe while
+						you're at it, would you?</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Phobos Visiting</h1>
+					<div class="container">
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">Phobos! I hope you're not making
+Kyra regret her decision.</div>
+						<div class="speaker">phobos</div>
+						<div class="dialogue">C'mon, Mom...
+I-I'm doing fine!</div>
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue"><i>[Smiles]</i> Of course you are, my son.
+I'm proud of you.<br>
+Everyone in the village's always
+talking about you kids, you know?<br>
+To us, you lot are greater heroes
+than the ones in the legends!</div>
+						<div class="speaker">phobos</div>
+						<div class="dialogue">I-Is that so? Wow, I'm...
+I'm glad to hear it!<br>
+All I want is to keep
+our town safe...</div>
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">Then get out there and
+fight without fear, boy!</div>
+						<div class="speaker">Phobos</div>
+						<div class="dialogue">Y-Yes, Mom! Don't you
+worry about a thing!<br>
+They won't lay a finger
+on the homes!</div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(Phobos leaves.)</div>
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">Not worried about the homes, boy...
+I'm worried about you...<br>
+But I'm sure she won't let anything
+happen to you.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Phobos is dead</h1>
+					<div class="container">
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">...Leave my house.
+I need time alone.</div>
+						<div class="speaker">visitor</div>
+						<div class="dialogue">......</div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(They leave.)<p>(Phobos' mother sobs.)</p></div>
+						<div class="speaker">Phobos' mother</div>
+						<div class="dialogue">My poor boy...
+Why did this have to happen...?</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Church</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+						<div class="speaker">Priest</div>
+						<div class="dialogue">Tsk tsk... The Mother surely weeps
+at such a sorry sight.<br>
+There is scarcely little I can do to
+assist you in this...<br>
+But please, I beg you to take this,
+with my blessing.<br>
+I doubt these misguided fools
+count mages among their ranks,<br>
+but the time might come when you
+can put this to use.<br>
+May Her mercy be bestowed upon
+you.<p><i>(He gives the visitor a Pure Water.)</i></p></div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Kairos Visiting</h1>
+					<div class="container">
+						<div class="speaker">priest</div>
+						<div class="dialogue">Father Kairos...
+Is this truly necessary?</div>
+						<div class="speaker">kairos</div>
+						<div class="dialogue">What, you'd rather I sit idly by
+while our community burns?<br>
+Maybe say a prayer and beg
+for Her mercy?</div>
+						<div class="speaker">priest</div>
+						<div class="dialogue">Well... Indeed, that is what
+the rest of us are doing.<br>
+It is what a good, faithful
+priest should do...</div>
+						<div class="speaker">kairos</div>
+						<div class="dialogue">Yes, well, I have a more...
+progressive concept of my duties.<br>
+If you're going to pray, pray for our
+success.</div>
+						<div class="speaker">priest</div>
+						<div class="dialogue">Sigh...
+Oh, Father Kairos...<br>
+Very well. If you insist on this
+madness, at least have this.<br>
+I doubt these misguided fools
+count mages among their ranks,<br>
+but the time might come when you
+can put this to use.<br>
+May Her mercy be bestowed upon
+you.<p><i>(He gives Kairos a Pure Water.)</i></p></div>
+						<div class="speaker">kairos</div>
+						<div class="dialogue"><i>[Smiles]</i> Reliable man. All right,
+stay out of trouble now!</div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(Kairos leaves.)</div>
+						<div class="speaker">priest</div>
+						<div class="dialogue">T-That's what I should
+be saying to you...</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>East House</h1>
+				<div class="container">
+					<div class="speaker">Man</div>
+					<div class="dialogue">O-Oh man... I hear someone very special's
+traveling not far from here.<br>
+She who is feared all around Tartaros...
+Heaven's Scythe.<br>
+D-Do you think she'd like poppies or roses
+better...?</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(He startles.)</div>
+					<div class="speaker">Man</div>
+					<div class="dialogue">Wha-- In love? Me?!
+You pullin' my leg or what?<br>
+I'm afraid! Scared outta my wits, is what
+I am!<br>
+I've been reading this book I found in the
+forest, you see...<br>
+Now I'm worried it's heresy, and...
+<p>
+<i>[Smiles]</i> Oh, I know! You take it.<br>
+That way, when the inquisition arrives,
+it'll be YOUR life on the line!</p></div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(He gives the visitor a Secret Book.)</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Southeast House</h1>
+				<div class="container">
+					<div class="speaker">Man</div>
+					<div class="dialogue">I didn't trust that guildmaster
+guy at first.<br>
+Who needs a mercenary guild in
+a small town like this?<br>
+Let alone one headed by some
+hotshot from Glamorgan.<br>
+...I'll admit, though, been countin'
+my lucky stars ever since.<br>
+Turns out, when your town is tiny
+and out of the way,<br>
+it's a ripe target for pillagers,
+pickpockets and their ilk.<br>
+Here, a token of my appreciation.
+I think it's about time.<br>
+Here's hoping it brings you all
+good fortune!</div>
+					<div class="speaker"></div>
+					<div class="stagedirection">(He gives the visitor a Mother's Icon.)</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Southwest House</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+						<div class="speaker">old man</div>
+						<div class="dialogue">Rumor has it some deserters from the
+inquisition are in the area.<br>
+But who could possibly want to defect
+from the holy knights?<br>
+The most laudable position in our land,
+and they would squander it. Tsk tsk...<p>
+Anyway, back in my day, I was this town's
+finest archer!<br>
+I woulda showed these whippersnappers
+what for if this was 20 years ago...<br>
+...But, well, it ain't, and now the only
+battles I fight are with lumbago.<br>
+That archer of yours, though...
+She reminds me of me in my youth.<br>
+Give her this bow for me, wouldya?
+Stronger than the usual kind.<br>
+Tell her to give those barbarians a
+walloping for me!</p></div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(He gives the visitor a Steel Bow.)</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Kyra Visiting</h1>
+					<div class="container">
+						<div class="speaker">old man</div>
+						<div class="dialogue">Rumor has it some deserters from the
+inquisition are in the area.<br>
+But who could possibly want to defect
+from the holy knights?<br>
+The most laudable position in our land,
+and they would squander it. Tsk tsk...<p>
+Anyway, back in my day, I was this town's
+finest archer!<br>
+I woulda showed these whippersnappers
+what for if this was 20 years ago...<br>
+...But, well, it ain't, and now the only
+battles I fight are with lumbago.<br>
+You, though...
+You remind me of me in my youth.<br>
+Bring this bow with you, wouldya?
+Stronger than the usual kind.<br>
+Use it to give those barbarians a
+walloping for me!</p></div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(He gives Kyra a Steel Bow.)</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Pheme Visiting</h1>
+					<div class="container">
+						<div class="speaker">old man</div>
+						<div class="dialogue">Rumor has it some deserters from the
+inquisition are in the area.<br>
+But who could possibly want to defect
+from the holy knights?<br>
+The most laudable position in our land,
+and they would squander it. Tsk tsk...<p>
+Anyway, back in my day, I was this town's
+finest archer!<br>
+I woulda showed these whippersnappers
+what for if this was 20 years ago...<br>
+...But, well, it ain't, and now the only
+battles I fight are with lumbago.<br>
+You, though...
+You remind me of me in my youth.</p></div>
+						<div class="speaker">pheme</div>
+						<div class="dialogue">Me? I--</div>
+						<div class="speaker">old man</div>
+						<div class="dialogue">Bring this bow with you, wouldya?
+Stronger than the usual kind.<br>
+Use it to give those barbarians a
+walloping for me!</div>
+						<div class="speaker"></div>
+						<div class="stagedirection">(He gives Pheme a Steel Bow.)</div>
+						<div class="speaker">pheme</div>
+						<div class="dialogue">......<br>
+I-I don't think I can use
+this...<br>
+Guess I'll give it to Kyra
+when I see her.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+		<p><i>If Kairos survived:</i></p>
+			<div class="container">
+				<div class="speaker">kyra</div>
+				<div class="dialogue">The leader's down and the
+cronies are running off...<br>
+The ones that still can,
+at any rate.<br>
+We did it...
+Phew...</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue">Looks that way.
+Impressive display, I'll say.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Still can't believe you joined
+the fray, Father Kairos...</div>
+			</div>
+		<p><i>If no houses were damaged:</i></p>
+			<div class="container">
+				<div class="speaker">kairos</div>
+				<div class="dialogue">Am I about to get lectured?<br>
+Shouldn't I be the one giving the
+sermons here?<br>
+I'm okay, you're okay and so are
+our neighbors.<br>
+That's what matters, right?</div>
+			</div>
+		<p><i>If house(s) damaged:</i></p>
+			<div class="container">
+				<div class="speaker">kairos</div>
+				<div class="dialogue">Am I about to get lectured?<br>
+Shouldn't I be the one giving the
+sermons here?<br>
+I'm okay, you're okay and...
+Well, the town took a few hits,<br>
+but thankfully, it looks like none of
+our neighbors got hurt too badly.<br>
+That's what matters, right?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Certainly, but...
+A priest, fighting like this...</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue">I wasn't the most outlandish sight
+out here this morning...<br>
+How about that old gal draped in the
+white rags?<br>
+Interesting things I saw her doing,
+much as she tried to be discreet...</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Kyra starts.)</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">...!</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue">Settle down, Kyra.
+She helped to save Percote.<br>
+I won't tattle.
+We owe her that much.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">......</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue">No words of gratitude?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">What are you plotting,
+priest?</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue"><i>[Smiles]</i> Hah! Oh, I'm doing nothing so
+nefarious as [OpenQuote]plotting,[CloseQuote] trust me.<br>
+<i>[Frowns]</i> ...Perhaps I simply do not agree with
+ALL the tenets of my faith.<br>
+Is that so unbelievable?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">...I guess not.<br>
+<i>[Smiles]</i> Thank you, Father Kairos.</div>
+				<div class="speaker">kairos</div>
+				<div class="dialogue">Just call me Kairos, would you?
+That title is so garish.</div>
+			</div>
+			<div class="container transition">
+				<div class="speaker">Edward</div>
+				<div class="dialogue"><i>[Smirking]</i> It's all over already? Bah hah!
+Poor, poor idiot bandits.<br>
+Shoulda known better than to mess
+with Kyra and her jolly posse!</div>
+				<div class="speaker">Kyra</div>
+				<div class="dialogue">How's Elias?</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Well enough. This kind of stress is
+awful for the poor kid, though...</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Listen, could you--</div>
+				<div class="speaker">Edward</div>
+				<div class="dialogue">Keep an eye on him while you settle
+the score with Begoña?<br>
+As if you even need to ask.
+My one eye'll be square on him!<br>
+So just go already, before she
+skedaddles!</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue"><i>[Smiles]</i> Thank you, Edward.
+I mean it.</div>
+				<div class="speaker">edward</div>
+				<div class="dialogue">Oi, don't need to get all sappy on
+me now.<br>
+'Sides, from you, I prefer Redbeard!
+Hah hah hah...</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Pheme butts in.)</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">Kyra, let me go with you!</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Pheme... What did I tell you?
+I don't want any heroics from you.<br>
+I appreciate the aid you gave us, but
+they were just lashing out here.<br>
+The lion's den will be different.</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">Oh, please... Is it so wrong
+to want to help a friend?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">No, but... Don't you think your
+brother will be worried if you...?</div>
+				<div class="speaker">edward</div>
+				<div class="dialogue">C'mon, Kyra.
+Don't be mean.<br>
+Why should you be the only one that
+gets to play the hero?<br>
+Yer brother worries 'bout you and
+you never let that stop ya.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Sigh... Enable her,
+why don't you.<br>
+Fine, fine.
+I'll bring you along.</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue"><i>[Grins]</i> Thank you so much, Mr. Edward!</div>
+				<div class="speaker">edward</div>
+				<div class="dialogue">Ahh, think nothin' of it, gal.</div>
+				<div class="speaker">pheme</div>
+				<div class="dialogue">Kyra, I swear I'll be super careful. You
+won't have to worry about a thing!</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">I sure hope so!</div>
+				<div class="speaker"></div>
+				<div class="stagedirection">(Pheme and Edward leave. Apate approaches.)</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">...Shall we resume our previous
+endeavor?</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Not yet. We're going to see Begoña,
+at her hideout in the Foloi Forest.<br>
+And then we'll see that she pays for
+her crimes, once and for all!</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">Very well.
+I shall come along.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">No, you've done enough. You can
+remain here, if you prefer.</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">......<br>
+I wish to continue observing
+how you conduct yourself.</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">Huh...?
+What does that mean?</div>
+				<div class="speaker">apate</div>
+				<div class="dialogue">......</div>
+				<div class="speaker">kyra</div>
+				<div class="dialogue">...All right, fine.
+Let's go.<br>
+It's time for Begoña to be taught a
+lesson she's had a long time coming!</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+			<p class="hangingindent"><b>Kairos</b><br>
+			The town priest of Percote. Uncharacteristically lax for a holy man.</p>
+			<p class="hangingindent"><b>Pheme</b><br>
+			A young villager from Percote. Kindhearted, if a bit of a busybody.</p>
+			<div class="subdesc">
+			<p><b>Nimrod</b><br>
+		An aspiring huntress who is still
+learning the ways of the bow.<br>
+Promotions: Archer, Fighter.</p>
+			</div>
+			<p class="hangingindent"><b>López</b><br>
+			One of Begoña's henchmen. A bitter, sarcastic scoundrel.</p>
+			<p class="hangingindent"><b>Purloiner</b><br>
+			A small-time ne'er-do-well following Begoña's say.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
+
+				<div class="speaker"></div>
+				<div class="dialogue"></div>
+				<div class="speaker"></div>
+				<div class="dialogue"></div>
+				<div class="speaker"></div>
+				<div class="dialogue"></div>
+				<div class="speaker"></div>
+				<div class="dialogue"></div>

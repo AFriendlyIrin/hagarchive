@@ -3,48 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="hagarchive.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<style>
-
-.container {
-	display: grid;
-	grid-template-columns: 8% 1fr;
-	grid-template-rows: auto;
-	row-gap: 15px;
-}
-
-.speaker {
-	grid-column: 1 / 2;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.stagedirection {
-	font-style: italic;
-}
-
-.dialogue {
-	grid-column: 2 / 3;
-}
-
-.dialogue p {
-	margin-bottom: 0;
-}
-
-.hangingindent {
-  padding-left: 22px ;
-  text-indent: -22px ;
-}
-
-.subdesc {
-  padding-left: 44px ;
-}
-
-</style>
 </head>
 <body>
-	<div data-role="page" id="pageone">
+
+<div data-role="page" id="pageone">
 	  <div data-role="header">
 		<h1>Prologue: Fateful Crossroads</h1> 
 		<button id="collapsible1">Expand all</button>
@@ -585,6 +550,7 @@ not worth killing.</div>
 	changing forever that
 	stormy night...</div>
 			</div>
+			<p><i>[The game ends instead of advancing to the next chapter.]</i></p>
 			</div>
 		</div>
 		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
@@ -612,10 +578,8 @@ today known only to a select few.</p>
 			<p class="hangingindent"><b>Purloiner</b><br>
 			A small-time ne'er-do-well following Begoña's say.</p>
 		</div>
-				<div class="speaker"></div>
-				<div class="dialogue"></div>
-				<div class="speaker"></div>
-				<div class="dialogue"></div>
+	</div>
+</div>
 
 <script>
 window.onload = function func(){
