@@ -1,0 +1,649 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="hagarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 2: The Brigands' Fall</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Soter, Phobos, and Hecate are alive</h1> <!--temp flag 08 set-->
+				<div class="container">
+					<div>hecate</div>
+					<div>Well, here we are.
+Lady Begoña's grand estate.<br>
+Not much to look at, is it?</div>
+					<div>soter</div>
+					<div>This fort was built during one of the
+old wars with Glamorgan.<br>
+Its purpose, to defend this once vital
+point, so close to the border.<br>
+...With the years, however, it fell into
+neglect and disrepair.</div>
+					<div>kyra</div>
+					<div>And now it only serves to give lawless
+thugs a roof to cower under.</div>
+					<div>phobos</div>
+					<div>S-Still, a fort's a fort.<br>
+There's a reason we've not been able
+to take out Begoña for good...<br>
+What makes you think we'll win this
+time, Kyra?</div>
+					<div>kyra</div>
+					<div>This time, I'm really angry.<br>
+I'll climb the walls if I must.
+I'm taking her down.<br>
+She'll rue the day she ordered the
+town where I grew up razed!</div>
+					<div>hecate</div>
+					<div>Sheesh... Never seen this side of
+you before, Kyra.<br>
+If Begoña's not quaking in her
+boots, she's a downright idiot.</div>
+					<div>kyra</div>
+					<div>Jury's still out on that one.</div>
+					<div>soter</div>
+					<div>Please, my friend, please!
+Let us temper our nerves!<br>
+I completely understand your
+fury. This I swear.<br>
+Yet you must let it haunt you
+not, lest it cost you dearly!<br>
+What we do today, we do for
+justice, not vengeance!</div>
+					<div>kyra</div>
+					<div>...Yeah.
+Right... You're right.</div>
+					<div>phobos</div>
+					<div><i>[Smiles]</i> Phew... I was afraid Soter's pompous
+nonsense would just make you angrier.</div>
+					<div></div>
+					<div class="stagedirection">(Soter harumphs.)</div>
+					<div>soter</div>
+					<div>W-What?!
+Pompous, me?!</div>
+					<div>hecate</div>
+					<div><i>[Smiling]</i> Ahahahaha! What, are you going to
+deny it?<br>
+Even the knights I knew back in the
+capital weren't as uptight as you.</div>
+					<div>kyra</div>
+					<div>All right, that's enough! Get in there
+before they have a chance to react.</div>
+					<div>hecate</div>
+					<div>Aye aye, chief!</div>
+					<div>soter</div>
+					<div><i>[Grinning]</i> Bravery abounds!</div>
+					<div></div>
+					<div class="stagedirection">(Pheme butts in.)</div>
+					<div>pheme</div>
+					<div>Don't forget about me!
+I'm ready to fight too!</div>
+					<div>kyra</div>
+					<div>Pheme--</div>
+					<div>pheme</div>
+					<div>“Watch yourself, Pheme!
+Don't be reckless! No heroics!”<br>
+I know, I know. You don't need
+to keep repeating yourself.</div>
+					<div>hecate</div>
+					<div><i>[Smirks]</i> ...Pretty good impression,
+girl.</div>
+					<div>soter</div>
+					<div><i>[Smiling]</i> Hah, I'll say...</div>
+					<div>kyra</div>
+					<div>If you're all done having fun,
+we've got a fort to clean up.</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If any of the above characters are dead</h1>
+				<div class="container">
+					<div>apate</div>
+					<div>This is where those brigands
+take shelter?<br>
+It looks rather... derelict.</div>
+					<div>kyra</div>
+					<div>Soter told me once that they built this
+fort during a war with Glamorgan.<br>
+The forest wasn't so dense at the time.
+It was important to keep them at bay.<br>
+...But it's been a long time since then.
+No one's used it in decades.<br>
+No one but these loathsome thugs...</div>
+					<div>apate</div>
+					<div>Nevertheless, it is still a fort.<br>
+This building was designed to stop
+armies - what is our plan, Kyra?</div>
+					<div>kyra</div>
+					<div>Get in there and drag Begoña
+out of her stolen throne.</div>
+					<div>apate</div>
+					<div>...That is not a plan, Kyra.<br>
+You would do well to calm
+down before we start.</div>
+					<div>kyra</div>
+					<div>Sigh... I know, I know.<br>
+Still, we can't well let her roam
+free if she's growing bolder.<br>
+We'll figure it out as we go.
+Let's do this!</div>
+					<div>apate</div>
+					<div>...Good enough, I suppose...</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Enemy Turn 1</h1>
+			<div class="container">
+				<div></div>
+				<div class="stagedirection">(Begoña fidgets.)</div>
+				<div>Begoña</div>
+				<div>Drat! Drat, drat, drat...
+A thousand times drat!<br>
+She's HERE?! Banging on MY doors?!
+Walking up MY steps?!</div>
+				<div>Brigand</div>
+				<div>A-Actually, boss, it's more
+like dashing rapidly.</div>
+				<div>Begoña</div>
+				<div>Grrr... Normally I'd bet on our odds.
+We're the ones holding the fort.<br>
+But this time... Our bunch's never
+been in such bad shape...</div>
+				<div>brigand</div>
+				<div>S-So what do we do, boss?</div>
+				<div>Begoña</div>
+				<div>The doors should at least buy us
+some time.<br>
+Keep 'em locked no matter what!
+No one gets in!<br>
+And what are those southern
+deserters up to?</div>
+				<div>brigand</div>
+				<div>Helpin' to defend, for the time
+being.<br>
+But if we live, I imagine they'll
+demand more gold...</div>
+				<div>Begoña</div>
+				<div>Who cares?
+At least we'll be alive!<br>
+How about the stubborn one?
+Any progress?</div>
+				<div>brigand</div>
+				<div>Nope. Said, “I'll happily starve in this
+room before I lend you my aid!”<br>
+Scared me a mite, despite the locked
+door, so I... I just left.</div>
+				<div></div>
+				<div class="stagedirection">(Begoña twitches.)</div>
+				<div>Begoña</div>
+				<div>Gahhh!
+You useless dung-for-brains!</div>
+				<div></div>
+				<div class="stagedirection">(The underling backs away.)</div>
+				<div>brigand</div>
+				<div>S-S-So sorry, boss!
+I-I'll go back and try again--!</div>
+				<div>Begoña</div>
+				<div>In the middle of an invasion?!<br>
+On second thought, dung's too
+good for you... you, you...!<br>
+<p class="stagedirection">(Begoña shakes with rage.)</p>
+<p>Get outta my sight NOW!!</p>
+<p class="stagedirection">(The underling rus off.)</p>
+<p>......<br>
+It's...
+It's all fallin' apart...<br>
+<i>[closes eyes]</i> López, Fango... Why'd ya hafta go
+and get yourselves done in...?</p></div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 4</h1>
+			<div class="container">
+				<div>kyra</div>
+				<div>Blast! They've locked everything
+up tight, the cowards.<br>
+None of the outer guards have
+keys we can use, either...<br>
+Solid stone doors... Curses!
+How will we get in?<br>
+Maybe we should retreat and try
+to find another way...</div>
+				<div>apate</div>
+				<div>...Leave the doors to me.</div>
+				<div>kyra</div>
+				<div>Wait, what?</div>
+				<div>apate</div>
+				<div>I can open them with
+this staff.<br>
+<p class="stagedirection">(Kyra starts.)</p></div>
+				<div>kyra</div>
+				<div>Y-You can do that?!</div>
+				<div>apate</div>
+				<div>...It's really not that impressive.<br>
+Just focus on fighting the enemies
+behind those doors.<br>
+That, I cannot do for you.<br>
+<p class="stagedirection">(She leaves.)</p></div>
+				<div>kyra</div>
+				<div>...Just how many things can you
+do with those sticks, Apate...?<br>
+<p class="stagedirection">(Apate gains an Unlock staff.)</p></div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Kyra & Kairos</h1>
+				<div class="container">
+					<div></div>
+					<div class="stagedirection">(Kyra starts.)</div>
+					<div>kyra</div>
+					<div>What?!</div>
+					<div>kairos</div>
+					<div>Hmmm?
+Oh, you finally noticed me.</div>
+					<div>kyra</div>
+					<div>Father Kairos?!
+The heck are you doing here?</div>
+					<div>kairos</div>
+					<div>Helping, obviously.</div>
+					<div>kyra</div>
+					<div>...Why?</div>
+					<div>kairos</div>
+					<div>Well, the previous scuffle proved I
+have a knack for swashbuckling.<br>
+A knack I'm going to put to use by
+cracking some brigand skulls.<br>
+The scallywags have done enough
+harm. 'Tis the right thing to do.</div>
+					<div>kyra</div>
+					<div>......</div>
+					<div>kairos</div>
+					<div>...What, are you going to tell
+me to go back, now?</div>
+					<div>kyra</div>
+					<div>I damn well should! I can't just make
+a sellsword out of the town priest!</div>
+					<div>kairos</div>
+					<div><i>[Smirks]</i> Too late for that. The ways of the
+Mother are truly inscrutable.<br>
+So, dames first or shall I lead this
+dance?</div>
+					<div>kyra</div>
+					<div>W-Who ordained you?
+What were they thinking...?</div>
+					<div>kairos</div>
+					<div><i>[Smiling]</i> A mystery for the ages, no doubt.<br>
+All right, then!
+Onward and upward!</div>
+					<div>kyra</div>
+					<div>...No, seriously, who was it?
+I want a word with them...</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Raleigh</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If freed by Apate</h1>
+					<div class="container">
+						<div>Raleigh</div>
+						<div>What was that?<br>
+I see no key in the lock, and no tools
+for picking it in your hand...</div>
+						<div>apate</div>
+						<div>Will you stand there and question
+your newfound freedom?</div>
+						<div>Raleigh</div>
+						<div>Not at all.<br>
+Would I be correct in assuming you're
+with the local militia?<br>
+I've heard a lot about you in the past
+few days.<br>
+Mostly cursing from my lovely hosts.<br>
+So you've finally come to give them
+a serving of just desserts, eh?</div>
+						<div>apate</div>
+						<div>Indeed...</div>
+						<div>raleigh</div>
+						<div><i>[Grins]</i> Fantastic.
+I've been itching for some payback.<br>
+From them, and from my dearest
+defecting compatriots.<br>
+You saved some leftovers for me,
+surely?</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If freed by a thief</h1>
+					<div class="container">
+						<div>raleigh</div>
+						<div>What's this?
+You're freeing me?<br>
+I suppose you're expecting me
+to say “thank you,” right?<br>
+You'll be disappointed, I'm afraid.
+In fact...<br>
+I think I'll join those guys who are
+currently beating you up.<br>
+Now, will you make way, or shall
+I remove you myself?</div>
+						<div>thief</div>
+						<div>...Why the heck did I do that?
+Am I stupid?!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>When Begoña's door is opened</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If opened by Apate</h1>
+				<div class="container">
+					<div>Begoña</div>
+					<div>Ahh!
+What?! How'd you do that?!<br>
+You didn't break down the door!
+I didn't hear you fiddle with the lock!<br>
+You just... It just... opened for you!
+On its own! What sorcery...?!
+<p class="stagedirection">(Begoña shakes.)</p>
+<p>A-All right, you know what?
+That's it, I'm done.<br>
+It's been fun, playing bandit queen.
+Had my kicks.<br>
+But you win. Go ahead. Take the fort
+and everything I've built from me.<br>
+J-Just don't open me up like you did
+that door...!</p>
+<p class="stagedirection">(Begoña relinquishes her throne and becomes a neutral unit.)</p></div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If opened by a thief</h1>
+				<div class="container">	
+					<div>Begoña</div>
+					<div>Wha-- What the absolute
+heck are you doin'?!<br>
+You fool! What'd I say?!
+Doors stay locked!<br>
+Dammit! Now they're gonna
+storm in and murder me!<br>
+...Fine! 'Fore that happens,
+I'm just gonna give up!<br>
+Have fun tryin' to stop 'em
+on your own, jackass!</div>
+					<div>thief</div>
+					<div>...Shit!
+I'm an idiot!<br>
+<p class="stagedirection">(Begoña relinquishes her throne and becomes a neutral unit.)</p></div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+				<div>Begoña</div>
+				<div>Ow! Ow, ow! Not so tight,
+you miserable little...</div>
+				<div>kyra</div>
+				<div>I don't want to risk you
+running.</div>
+				<div>Begoña</div>
+				<div>......</div>
+				<div>kyra</div>
+				<div>......</div>
+				<div>Begoña</div>
+				<div>...Well? Don't just stand there!
+Say something!</div>
+				<div>kyra</div>
+				<div>Do you really want me to?<br>
+You've tested my patience
+enough for one lifetime.<br>
+If I start, I may not be able
+to stop.</div>
+				<div>Begoña</div>
+				<div>...Bah... Well, I ain't gonna
+apologize. I regret nothing!</div>
+				<div>kyra</div>
+				<div>I would've expected no less.<br>
+Well, let me just put this in your
+mouth and we'll get going.</div>
+				<div>Begoña</div>
+				<div>Hey--<br>
+				<p class="stagedirection">(Kyra gags her.)</p>
+				<p>Mmph! Mmph...!</p></div>
+				<div>kyra</div>
+				<div>Hmph...</div>
+			</div>
+			<p class="transition"><i>If Raleigh survived:</i></p>
+			<div class="container">
+				<div>raleigh</div>
+				<div><i>[Smiling]</i> Very impressive, if I do
+say so myself.<br>
+My name is Raleigh.
+Pleased to meet you.</div>
+				<div>kyra</div>
+				<div>I'm Kyra, but... What's one of the dark
+knights of Glamorgan doing here?</div>
+				<div>Raleigh</div>
+				<div>Good question! I think it goes without
+saying, but I wasn't here willingly.<br>
+I finished my training and joined up with
+the knights not so long ago.<br>
+I was assigned to a brigade and told
+big words about the station's glory.<br>
+...Well, my squadmates differed. By
+quarter's end, they decided to desert.</div>
+				<div>kyra</div>
+				<div>And you with them?</div>
+				<div>Raleigh</div>
+				<div>They dragged me along!
+Threatened me!<br>
+And then they go and cast
+their lot with cutthroats?<br>
+Small-time, utterly witless
+cutthroats, at that!</div>
+				<div>kyra</div>
+				<div>What, you weren't immediately drawn
+in by Begoña's charming personality?</div>
+				<div>Raleigh</div>
+				<div><i>[Smirks]</i> Hah! Well, they had to lock me in a
+storeroom, so...
+<p>Say, you're mercenaries, correct?</p></div>
+				<div>kyra</div>
+				<div>Sort of, yeah. Feel free to come
+back home with us.<br>
+We can discuss your future, if
+you like.</div>
+				<div>Raleigh</div>
+				<div>I have nowhere to go and
+nobody to rely on.<br>
+I'd be remiss to refuse
+your kindly offer!</div>
+				<div>kyra</div>
+				<div>And I would be a fool to pass up a
+chance to add your might to ours.</div>
+			</div>
+			<p class="transition"><i>If Phobos, Soter, and Hecate are alive:</i></p>
+			<div class="container">
+				<div>kyra</div>
+				<div>At last...
+We did it!<br>
+Begoña and her cronies won't cause
+trouble for anyone any time soon.</div>
+				<div>pheme</div>
+				<div><i>[Smiling]</i> Way to go, guys!
+That was so awesome!<br>
+They barely stood a chance!
+Are you always this impressive?<br>
+Man... Kyra, you need to let me
+join your group for reals!</div>
+				<div>kyra</div>
+				<div>Er... Maybe in a year or two.</div>
+				<div>soter</div>
+				<div>......</div>
+				<div>kyra</div>
+				<div>Why the gloomy expressions, though?<br>
+I thought you guys'd be happier.
+This is one big problem dealt with.</div>
+				<div>phobos</div>
+				<div>...T-The heretic's powers...
+They're truly terrifying...</div>
+				<div>hecate</div>
+				<div>She opened up that fort like
+an angler guts a fish...</div>
+				<div>kyra</div>
+				<div>A little gratitude wouldn't hurt,
+you know.<br>
+We wouldn't have managed this
+if she hadn't been with us.<br>
+Heck, we might have all died
+back in Percote without her!</div>
+				<div>soter</div>
+				<div>And yet, I cannot help but
+ponder upon the cost...</div>
+				<div>kyra</div>
+				<div>The cost? C'mon, Soter...
+Really?<br>
+What are you even talking
+about?</div>
+				<div>phobos</div>
+				<div>S-She's a heretic, Kyra.<br>
+Don't come crying to me
+when she--</div>
+				<div>kyra</div>
+				<div>All right, I think I've heard
+enough!<br>
+She's my guest, and I'll hear
+no more insults against her.<br>
+Consider that an order.
+You got me, everyone?</div>
+				<div>soter</div>
+				<div>I-I'll say... Perhaps we are all
+simply beset by exhaustion.<br>
+It has been a most hectic
+dayspring, truth be told...<br>
+Let us return to the comfort
+of our beds, and then...</div>
+				<div>hecate</div>
+				<div>Sounds good to me.</div>
+				<div>kyra</div>
+				<div>......</div>
+			</div>
+			<h3 class="transition">Back in Percote...</h3>
+			<div class="container">
+				<div>kyra</div>
+				<div>......
+				<p class="stagedirection">(Apate approaches and she jumps to attention.)</p>
+				<p>W-What does it look like
+to you, Apate?</p></div>
+				<div>apate</div>
+				<div>How long did you say
+Elias has been sick?</div>
+				<div>kyra</div>
+				<div>Four years...
+I don't know how it happened.<br>
+He was fine, then he wasn't.
+Then he wouldn't get better...<br>
+And just when we needed them
+the most... Our parents died.</div>
+				<div>apate</div>
+				<div>And you have been living
+here ever since...</div>
+				<div>kyra</div>
+				<div>Redbeard stumbled into town very
+soon after Mom and Dad passed.<br>
+He's been kind to us.
+Kinder than he needed to be...</div>
+				<div>apate</div>
+				<div>Hmm.<p>
+Well... The good news is,
+I do believe... I can cure him.</p></div>
+				<div>kyra</div>
+				<div><i>[Grinning]</i> Truly?! Oh, thank you!
+Thank you so much...!<br>
+Do you need anything?
+Tell me and I'll bring it to you!</div>
+				<div>apate</div>
+				<div>Are you certain, Kyra?<br>
+Indulging so in the work of a
+heretic can invite... trouble.</div>
+				<div>kyra</div>
+				<div>What do I care? I've never been
+particularly religious, anyway.<br>
+To hell with the Mother. You're the
+one who can save my brother.</div>
+				<div>apate</div>
+				<div>Strong words.<br>
+...Tell me, how do you feel
+about Hierophant Dolus?</div>
+				<div>kyra</div>
+				<div>The hierophant? Nothing
+much, to be honest.<br>
+We're small folk living in a
+small town.<br>
+The hierophant exists in a
+different world from ours.</div>
+				<div>apate</div>
+				<div>......<br>
+I can save your brother, yes...
+But it won't be easy.<br>
+The illness plaguing him...
+It is a most grievous one.<br>
+It has ravaged his body so much,
+for much too long...<br>
+Strong, plentiful energy is needed
+to extend his time on this plane.</div>
+				<div>kyra</div>
+				<div>...W-What does that mean?</div>
+				<div>apate</div>
+				<div>Are you worried I will ask you to find
+innocents to kill for their essence?</div>
+				<div>kyra</div>
+				<div>Er...</div>
+				<div>apate</div>
+				<div>No... I need only the bountiful lifeforce
+of one singular man.<br>
+A man who has earned a gruesome end
+a thousand times over.</div>
+				<div>kyra</div>
+				<div>What are you getting at--
+				<p class="stagedirection">(Kyra starts.)</p>
+				<p>No.<br>
+No, no... Tell me it's not what
+I think it is...</p></div>
+				<div>apate</div>
+				<div>Kyra... In order to
+save your brother...<br>
+I require you to kill
+the hierophant.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+		<p class="hangingindent"><b>Raleigh</b><br>
+		A former Glamorgan knight. Their platoon deserted, but they themself aren't the disloyal sort.</p>
+		<p class="hangingindent"><b>Begoña</b><br>
+		A boastful and brutal thug who leads a gang of criminals.</p>
+		<p class="hangingindent"><b>Purloiner</b><br>
+		A small-time ne'er-do-well following Begoña's say.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>

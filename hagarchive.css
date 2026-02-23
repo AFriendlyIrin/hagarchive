@@ -11,22 +11,17 @@
 	margin-top: 15px;
 }
 
-.speaker {
-	grid-column: 1 / 2;
+.container div:nth-child(odd) {
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
+.container > div > p {
+	margin-bottom: 0;
+}
+
 .stagedirection {
 	font-style: italic;
-}
-
-.dialogue {
-	grid-column: 2 / 3;
-}
-
-.dialogue p, .stagedirection p {
-	margin-bottom: 0;
 }
 
 .hangingindent {
