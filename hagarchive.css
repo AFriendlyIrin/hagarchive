@@ -1,0 +1,33 @@
+.container {
+	display: grid;
+	grid-template-columns: 8% 1fr;
+	grid-template-rows: auto;
+	row-gap: 15px;
+}
+
+.speaker {
+	grid-column: 1 / 2;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.stagedirection {
+	font-style: italic;
+}
+
+.dialogue {
+	grid-column: 2 / 3;
+}
+
+.dialogue p {
+	margin-bottom: 0;
+}
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+
+.subdesc {
+  padding-left: 44px ;
+}
