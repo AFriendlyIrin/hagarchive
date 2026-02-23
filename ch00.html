@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+
+.container {
+	display: grid;
+	grid-template-columns: 8% 1fr;
+	grid-template-rows: auto;
+	row-gap: 15px;
+}
+
+.speaker {
+	grid-column: 1 / 2;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.stagedirection {
+	font-style: italic;
+}
+
+.dialogue {
+	grid-column: 2 / 3;
+}
+
+</style>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+	  <div data-role="header">
+		<h1>Prologue: Fateful Crossroads</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	  </div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+		<div class="container">
+			<div class="speaker">APATE</div>
+			<div class="dialogue">......</div>
+			<div class="speaker"> </div>
+			<div class="stagedirection">(Begoña, Fango, and López appear from the woods.)</div>
+			<div class="speaker">FANGO</div>
+			<div class="dialogue"><i>[Smiling]</i> Gee, look at this, López!
+A lil' ol' lady!</div>			
+			<div class="speaker">López</div>
+			<div class="dialogue">Hell of a weather to be takin' a
+stroll through the forest.<br>
+You lost, m'lady?
+Well, you're one lucky grandma.<br>
+We're here to escort you somewhere
+nice and dry. Hehehe...</div>
+			<div class="speaker">APATE</div>
+			<div class="dialogue">......</div>
+			<div class="speaker">FANGO</div>
+			<div class="dialogue">She doesn't seem the rich
+type t'me...<br>
+Do we even bother?</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">'Course we do, you moron!
+Beggars can't be choosers!<br>
+With that runt bearin' down on us,
+we gotta take what we can get.<br>
+'Sides, everyone's got someone that
+loves 'em in the world.<br>
+<i>[Smiles]</i> Somebody'll pay a wee ransom for ya,
+right, ma'am?</div>
+			<div class="speaker">APATE</div>
+			<div class="dialogue">...Leave me be.
+I have no time to waste.</div>
+			<div class="speaker">FANGO</div>
+			<div class="dialogue">You tryin' to order us around?
+Old coot! Boss, lemme--!</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">I'll handle this, Fango.
+You always get too carried away.</div>
+			<div class="speaker">FANGO</div>
+			<div class="dialogue">Aww, fine...</div>
+			<div class="speaker"> </div>
+			<div class="stagedirection">(Begoña moves closer.)</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue"><i>[Smiles]</i> Imma take you alive, but that don't
+mean I can't rough you up some!</div>
+			<div class="speaker">APATE</div>
+			<div class="dialogue">Hmph...!</div>
+			<div class="speaker"> </div>
+			<div class="stagedirection">(Kyra appears from the woods and blocks Begoña's attack, taking heavy damage. Phobos appears and attacks López, wounding him. López counterattacks, but only inflicts superficial damage.)</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">Drat! Drat, drat, drat!
+Not you again!<br>
+Why do you always have to
+pop up wherever we go?!<br>
+We're not the only bandits
+in the realm, you know!</div>
+			<div class="speaker">KYRA</div>
+			<div class="dialogue">You're the only bandits in this area,
+though.<br>
+At this point, anyway. The rest were
+not nearly as stubborn as you.<br><br>
+Now... How about you give it up?
+You know you can't beat us.</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">Oh, can't I?
+Wanna bet, bow girl?!<br>
+You ain't gonna get lucky
+shots on me forever!</div>
+			<div class="speaker">FANGO</div>
+			<div class="dialogue">I'll break every bone in their bodies,
+boss! Just say the word!</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">You got it! Let's go, boys!
+Bring 'em all to their knees!</div>
+			
+			<div class="speaker">López</div>
+			<div class="dialogue">Guess no one cares I'm bleedin'
+out here, huh...<br>
+That's okay. Don't mind me.
+I'll just find a hole to die in...</div>
+			<div class="speaker">Begoña</div>
+			<div class="dialogue">Ohhh, you useless...<br>
+Fango! You and the rest take care
+of this! I'll help López home.</div>
+			<div class="speaker">fango</div>
+			<div class="dialogue">Ya got it, boss!</div>
+			<div class="speaker"> </div>
+			<div class="stagedirection">(The bandits run away to the north, but several more appear from the trees.)</div>
+			<div class="speaker">PHOBOS</div>
+			<div class="dialogue">Kyra, you're hurt!</div>
+			<div class="speaker">kyra</div>
+			<div class="dialogue">Nothing that can't be
+patched up later.<br>
+But what about you, lady?
+That was a close shave.</div>
+			<div class="speaker">apate</div>
+			<div class="dialogue">...I'm fine.</div>
+			<div class="speaker">PHOBOS</div>
+			<div class="dialogue">A-Am I supposed to give
+chase, Kyra...?</div>
+			<div class="speaker">kyra</div>
+			<div class="dialogue">There's too many of them.
+Stay close to me, Phobos.<br>
+You as well, lady.</div>
+			<div class="speaker">apate</div>
+			<div class="dialogue">......</div>
+			<div class="speaker">kyra</div>
+			<div class="dialogue">The others should be on their way.
+These idiots are in for a nasty surprise.<br>
+We just have to keep them at bay until
+those two arrive!</div>
+			<div class="speaker">phobos</div>
+			<div class="dialogue">A-All right, here
+goes nothing...!</div>
+
+			<div class="speaker"> </div>
+			<div class="dialogue"> </div>
+		</div>
+		</div>
+	</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
