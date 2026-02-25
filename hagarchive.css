@@ -20,6 +20,16 @@
 	margin-bottom: 0;
 }
 
+.escape .container {
+	border-bottom: 1px solid gray;
+	padding-bottom: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+.escape .container:last-child {
+	border-bottom: none;
+}
+
 .stagedirection {
 	font-style: italic;
 }
@@ -50,4 +60,13 @@
 	text-align: center;
 	font-weight: bold;
 	font-style: italic;
+}
+
+img {
+	display: block;
+	justify-content: center;
+	width: 480px;
+	height: 320px;
+	margin-bottom: 1.2em;
+	margin-top: 1.2em;
 }
