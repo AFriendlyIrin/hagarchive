@@ -12,6 +12,12 @@
 	margin-top: 15px;
 }
 
+.bottomtransition {
+	border-bottom: 2px solid black;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
 .container div:nth-child(odd) {
 	font-weight: bold;
 	text-transform: uppercase;
