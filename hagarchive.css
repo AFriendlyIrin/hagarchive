@@ -18,6 +18,15 @@
 	margin-bottom: 15px;
 }
 
+.itemcut {
+	border-top: 1px solid black;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-bottom: 1px solid black;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
 .container div:nth-child(odd) {
 	font-weight: bold;
 	text-transform: uppercase;
