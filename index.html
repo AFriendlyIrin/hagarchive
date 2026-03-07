@@ -11,7 +11,7 @@ a {
 	font-weight: bold;
 }
 
-.container {
+.index {
 	display:grid;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto;
@@ -29,11 +29,29 @@ a {
 }
 
 .maincampaign {
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	column-gap: 1em;
+	
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	border-right: 2px solid black;
+}
+
+.header {
+	text-align:center;
+}
+
+.maincampaign .header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.maincampaign ul {
+	margin-top: 0;
 }
 
 .postgame {
@@ -50,13 +68,13 @@ a {
 <h1><center><i>The Hag in White</i> Text Archive</center></h1>
 <div data-role="main" class="ui-content">
 	<p>Script and text archive for <i><a href=https://feuniverse.us/t/the-hag-in-white-complete/31606 target="_blank">The Hag in White</a></i>, a romhack of <i>Fire Emblem: The Sacred Stones</i> by Saint Rubenio.</p>
-	<div class="container">
+	<div class="index">
 		<div class="misc">
 		<p><a rel="external" href="camp.html">Base Camp</a><br>
 		<a rel="external" href="misc.html">Miscellaneous Text</a></p>
 		</div>
 		<div class="maincampaign">
-		<h4 style="text-align:center">Main Story</h4>
+		<h4 class="header">Main Story</h4>
 		<ul>
 			<li><a rel="external" href="ch00.html">Prologue</a></li>
 			<li><a rel="external" href="ch01.html">Chapter 01</a></li>
@@ -69,6 +87,8 @@ a {
 			<li><a rel="external" href="rs1.html">Roadside Stop 1</a></li>
 			<li><a rel="external" href="ch08.html">Chapter 08</a></li>
 			<li><a rel="external" href="ch09.html">Chapter 09</a></li>
+		</ul>
+		<ul>
 			<li><a rel="external" href="ch10.html">Chapter 10</a></li>
 			<li><a rel="external" href="ch11.html">Chapter 11</a></li>
 			<li><a rel="external" href="ch12.html">Chapter 12</a></li>
@@ -80,6 +100,8 @@ a {
 			<li><a rel="external" href="ch17.html">Chapter 17</a></li>
 			<li><a rel="external" href="ch18.html">Chapter 18</a></li>
 			<li><a rel="external" href="ch19.html">Chapter 19</a></li>
+		</ul>
+		<ul>
 			<li><a rel="external" href="ch20.html">Chapter 20</a></li>
 			<li><a rel="external" href="ch21.html">Chapter 21</a></li>
 			<li><a rel="external" href="ch22.html">Chapter 22</a></li>
@@ -92,7 +114,7 @@ a {
 		</ul>
 		</div>
 		<div class="postgame">
-		<h4 style="text-align:center">Postgame</h4>
+		<h4 class="header">Postgame</h4>
 		<ul>
 			<li><a rel="external" href="ch01x.html">Chapter 01x</a></li>
 			<li><a rel="external" href="ch02x.html">Chapter 02x</a></li>
