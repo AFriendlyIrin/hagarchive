@@ -130,3 +130,10 @@ img {
 .container img {
 	margin: 0;
 }
+
+.inverted {
+	background-color: gray;
+	text-shadow: 1px 1px black;
+	border-radius: 5px;
+	padding: 0.5em;
+}
