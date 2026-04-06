@@ -137,3 +137,15 @@ img {
 	border-radius: 5px;
 	padding: 0.5em;
 }
+
+.portrait {
+	display: grid;
+	grid-template-columns: 96px 1fr;
+	grid-template-rows: auto;
+	column-gap: 12px;
+}
+
+.portrait img {
+	height: 80px;
+	width: 96px;
+}
