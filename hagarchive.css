@@ -133,7 +133,8 @@ img {
 
 .inverted {
 	background-color: gray;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px gray;
+	color: #f9f9f9;
 	border-radius: 5px;
 	padding: 0.5em;
 }
